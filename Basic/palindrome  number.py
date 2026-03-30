@@ -1,5 +1,3 @@
-
-
 num = 121
 
 original = num
