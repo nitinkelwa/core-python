@@ -5,5 +5,5 @@ for num in range(1, 12):
                 break
 
         else:
-            print( " this is the prime numbers",num)
+            print( " The  prime numbers is =",num)
 
