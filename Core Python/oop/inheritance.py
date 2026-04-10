@@ -2,42 +2,46 @@ class Bank:
     def __init__(self):
         print("Details about customer ")
 
-        self.customer_name = ''
-        self.account_number = 0
-        self.address = ''
-        self.ifsc_code = ''
+        self.customer_name = "name"
+        self.account_number = "number"
+        self.address = "address"
+        self.ifsc_code = "ifsc"
 
         # setter $ getter for name
 
-    def getcustomer_name(self):
-        return self.customer_name
+   def set_name(self, name):
+        set.customer_name = name
 
-    def setcustomer_name(self, customer_name):
-        self.customer_name = customer_name
+   def get_name(self):
+        return set.name
 
         # setter and getter for account number
 
-    def getaccount_number(self):
-        return self.account_number
 
-    def setaccount_number(self, account_number):
-        self.account_number = account_number
+   def set_number(, number):
+    set.cutomer_number = number
+
+   def def_number(self):
 
     # setter and getter for  address
-    def getaddress(self):
-        return self.address
 
-    def setaddress(self, address):
-        self.address = address
+
+def getaddress(self):
+    return self.address
+
+
+def setaddress(self, address):
+    self.address = address
 
     # setter and getter for ifsc code
-    def getifsc_code(self):
-        return self.ifsc_code
-
-    def setifsc_code(self, ifsc_code):
-        self.ifsc_code = ifsc_code
 
 
+def getifsc_code(self):
+    return self.ifsc_code
+
+
+def setifsc_code(self, ifsc_code):
+    self.ifsc_code = ifsc_code
 
 
 class Finance(Bank):
@@ -61,19 +65,3 @@ class Finance(Bank):
 
     def getpan_no(self):
         return self.pan_no
-
-b1 = Bank()
-b1.setcustomer_name("Nitin ")
-b1.setaccount_number("882410110000")
-b1.setaddress("Memdi")
-b1.setifsc_code("Bkid00088")
-
-
-
-
-print("customer name : ", b1.getcustomer_name())
-print("customer account number:", b1.getaccount_number())
-print("customer address: ", b1.getaddress())
-print(" customer ifsc code : ", b1.getifsc_code())
-
-
