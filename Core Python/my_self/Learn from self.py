@@ -8,7 +8,10 @@
 # address=input("where are you from :")
 # print("wow nice,you are come from clean city. ",address)
 #
+from operator import index
+from tkinter.font import names
 from traceback import print_tb
+
 
 # question no.1
 
@@ -66,7 +69,6 @@ from traceback import print_tb
 #
 # if (a >= b and a >= c):
 #     print("1st number is largest :", a)
-#
 # elif (b >= c):
 #     print("2nd number is largest  :", b)
 #
@@ -74,3 +76,47 @@ from traceback import print_tb
 #     print("3rd number is largest  :", c)
 
 
+#
+# class Student:
+#     def __init__(self):
+#         self.__m = 0  # private variable (different name)
+#
+#     # Setter
+#     def set_marks(self, value):   # parameter ka naam alag
+#         self.__m = value
+#
+#     # Getter
+#     def get_marks(self):
+#         return self.__m
+#
+# s = Student()
+#
+# s.set_marks(90)
+# print(s.get_marks())
+#
+
+class Student:
+
+    def __init__(self):
+        self.name = ""
+        self.subject = ""
+        self.roll = ""
+
+    def __set__(self, name, subject, roll):
+        self.n = name
+        self.s = subject
+        self.r = roll
+
+    def get__name(self):
+        return self.n
+
+    def get__subject(self):
+        return self.s
+
+    def get__roll(self):
+        return self.r
+
+    s = Student()
+
+    s.set_name(nitin )
+    print(s.get__name)

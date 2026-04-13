@@ -11,3 +11,10 @@ day_name = dob.strftime("%A")
 
 print("Your age is:", age)
 print("You were born on:", day_name)
+
+
+
+
+
+
+
