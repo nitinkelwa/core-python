@@ -2,15 +2,15 @@ class Automobile:
     def __init__(self):
         print("Details of my car  Mahendra scorpio ")
 
-        self.model = "model"
-        self.colour = "colour"
-        self.speed = "speed"
-        self.gear = "gear"
+        self.model = ""
+        self.colour = ""
+        self.speed = ""
+        self.gear = 0
 
         # setter getter for model
 
-    def set_model(self, model):
-        self.model = model
+    def set_model(self, m):
+        self.model = m
 
     def get_model(self):
         return self.model
@@ -18,8 +18,8 @@ class Automobile:
 
   # setter and getter for colour
 
-    def set_colour(self, colour):
-        self.colour = colour
+    def set_colour(self, c):
+        self.colour = c
 
     def get_colour(self):
         return self.colour
@@ -27,8 +27,8 @@ class Automobile:
 
     # setter and getter for  speed
 
-    def set_speed(self, speed):
-        self.speed = speed
+    def set_speed(self, s):
+        self.speed = s
 
     def get_speed(self):
         return self.speed
@@ -36,8 +36,8 @@ class Automobile:
 
     # setter and getter for gear
 
-    def set_gear(self, gear):
-        self.gear = gear
+    def set_gear(self, g):
+        self.gear = g
 
     def get_gear(self):
         return self.gear
