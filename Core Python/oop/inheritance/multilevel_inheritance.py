@@ -91,13 +91,17 @@ class Mother(Father):
 class Family(Mother):
 
     def display(self):
+        print(" THERE ARE DETAILS OF YOUR FAMILY"
+              " ")
         print("name:", self.name)
         print("last name:", self.last_name)
         print("mobile number:", self.mobile_no)
         print("address:", self.address)
+        print("")
         print("your father name is :", self.father_name)
         print("your father mobile number:", self.fathers_mobile_no)
         print("your father work as a :  ", self.occupation)
+        print("")
         print("your mother name is:", self.mother_name)
         print("your mother's mobile number", self.mothers_mobile_number)
         print("your mother work as a", self.mother_occupation)

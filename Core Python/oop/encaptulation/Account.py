@@ -29,11 +29,24 @@ class Account:
     def getaccount_type(self):
         return self.account_type
 
-    # Deposit method
 
-    def deposit(self, amt):
-        self.balance = self.balance + amt
 
-        print("Total balance after deposit =", self.balance)
 
+    ################################################################################################################
+#
+#
+class ATM:
+    def __init__(self):
+        self.__balance = 1000   # private variable
+
+    def deposit(self, amount):
+        self.__balance += amount
+
+    def show_balance(self):
+        print("Balance:", self.__balance)
+
+atm = ATM()
+
+atm.deposit(500)
+atm.show_balance()   # Balance: 1500
 
