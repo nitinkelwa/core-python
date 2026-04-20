@@ -49,12 +49,11 @@
 #
 # t = Test()
 # t.execute()  # Will call Shape's area() since Test does not override it
-
+#
 
 #######################################################################################################
 
 
-# Base class
 class Animal:
     def speak(self):
         print("Animal makes a sound")
@@ -63,13 +62,13 @@ class Animal:
         print("This is a general animal")
 
 
-# Child class 1 (overriding speak)
+# Child class 1
 class Dog(Animal):
     def speak(self):
         print("Dog barks")
 
 
-# Child class 2 (overriding speak)
+# Child class 2
 class Cat(Animal):
     def speak(self):
         print("Cat meows")
