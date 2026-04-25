@@ -139,6 +139,56 @@
 # c = Child()
 # c.house()
 # c.car()
-from tkinter.font import names
+
+
 
 ###############################################################################################################
+
+#
+# class Student:
+#     collage_name="svce"
+#
+#     def __init__(self):
+#         self.__name=""
+#         self.__marks=0
+#
+#
+#     def set_marks(self,m,):
+#         self.__marks=m
+#
+#     def get_marks(self):
+#         return self.__marks
+#
+#     def set_name(self,n):
+#         self.__name=n
+#
+#     def get_name(self):
+#         return self.__name
+#
+# s=Student()
+# s1=Student()
+# print("collage name is :",s.collage_name)
+# s.set_name("Nitin ")
+#
+#
+# s.set_marks(100)
+# print("name of student :",s.get_name())
+# print("marks of student :", s.get_marks())
+
+
+
+
+
+try:
+    username= str(input("Enter username :"))
+    pin = int(input("Enter Pin: "))
+    if pin != 1234:
+        raise Exception("Invalid PIN")
+    print("Access Granted")
+
+except Exception as e:
+    print(e)
+
+
+
+
