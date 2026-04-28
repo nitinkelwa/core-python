@@ -19,10 +19,10 @@
 
 
 a = 20
-b = 2
+b = 0
 
 try:
-    c = a / 2
+    c = a / b
     print("division :", c)
 
 except ZeroDivisionError as e:

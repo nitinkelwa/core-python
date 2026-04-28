@@ -1,3 +1,4 @@
+
 try:
     f = open("file.txt")
 except FileNotFoundError:

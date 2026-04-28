@@ -178,16 +178,21 @@
 
 
 
+#
+# try:
+#     username= str(input("Enter username :"))
+#     pin = int(input("Enter Pin: "))
+#     if pin != 1234:
+#         raise Exception("Invalid PIN")
+#     print("Access Granted")
+#
+# except Exception as e:
+#     print(e)
 
-try:
-    username= str(input("Enter username :"))
-    pin = int(input("Enter Pin: "))
-    if pin != 1234:
-        raise Exception("Invalid PIN")
-    print("Access Granted")
 
-except Exception as e:
-    print(e)
+
+
+
 
 
 

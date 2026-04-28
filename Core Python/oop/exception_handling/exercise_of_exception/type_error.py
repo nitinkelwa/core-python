@@ -1,7 +1,7 @@
-a="10"
-b=5
+a = 10
+b = "5"
 
 try:
-    result = "10" + 5
-except TypeError:
-    print("Type mismatch")
+    result = a + b
+except TypeError as e:
+    print("Type mismatch :", e)
