@@ -141,7 +141,6 @@
 # c.car()
 
 
-
 ###############################################################################################################
 
 #
@@ -176,8 +175,6 @@
 # print("marks of student :", s.get_marks())
 
 
-
-
 #
 # try:
 #     username= str(input("Enter username :"))
@@ -190,10 +187,10 @@
 #     print(e)
 
 
-
-
-
-
-
-
+def writefile():
+    file = open("../my_self/self2","w")
+    file.write("hello\n")
+    file.write("Nitin kelwa \n")
+    file.write("This is your first python code ")
+    print("file write successfully")
 
