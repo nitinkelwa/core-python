@@ -1,6 +1,6 @@
 # # input from users.
-# # name =(input("what is your name :"))  # input is lagane se users se input milega
-# # print("ohh welcome.",name)            # what's you type in output that is our input
+# # name =(input("what is your name :"))  # input lagane se users se input milega
+# # print("ohh welcome.",name)            # jo aap output panel  me likhte he  wahi apka  input rhega.
 # #
 # # age = input ("what's your age :")
 # # print("you are a young man because you are ",age,"year old. ")
@@ -187,10 +187,4 @@
 #     print(e)
 
 
-def writefile():
-    file = open("../my_self/self2","w")
-    file.write("hello\n")
-    file.write("Nitin kelwa \n")
-    file.write("This is your first python code ")
-    print("file write successfully")
 
