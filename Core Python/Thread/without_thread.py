@@ -1,12 +1,14 @@
+
+
 def hello():
-    for i in range(1, 11):
-        print("Hello:", i)
+    for i in range(1,21):
+        print("hello Nitin",i)
 
 
-def hi():
-    for i in range(1, 11):
-        print('hi:', i)
-
+def hii():
+    for i in range (1,21):
+        print("hello rays",i)
 
 hello()
-hi()
+print() # for space between both function.
+hii()
